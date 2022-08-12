@@ -1,0 +1,24 @@
+#title-synopsis {
+    color: black;
+    font-size: 25px;
+    font-family: 'BenguiaBold';
+    font-weight: bold;
+}
+
+/* #text-conteiner{
+    position: relative;
+} */
+
+#fondo{
+    background-image: url('../../assets/images/noticia_1549.jpg');
+    position: relative;
+    width: 100%;
+    height: 250px;
+    opacity: 0.7;
+}
+
+#text-synopsis{
+    font-size: 14px;
+    font-family: 'BenguiaBold';
+    color: black;
+}

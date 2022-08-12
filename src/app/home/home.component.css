@@ -1,0 +1,4 @@
+#character-conteiner{
+    display: flex;
+    justify-content: space-around;
+}
