@@ -15,5 +15,6 @@ drive assets: https://drive.google.com/drive/folders/1d0LzvTcPloqoE4rqZCqLaqhPNF
 
 
 >> 2er Taller (Clase 6): 
+![ResultadoTaller6 sin mediaquery](https://user-images.githubusercontent.com/97200944/184792746-753f3d73-6d0d-4629-86b9-42ac8aea1af5.jpg)
 
 >> 3er Taller (Clase 9): 
