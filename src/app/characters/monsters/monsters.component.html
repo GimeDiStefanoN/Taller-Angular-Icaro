@@ -2,17 +2,19 @@
     <p class="subtitle">¡Descubrí los mounstruos!</p>
     <br>
     <div class="buttonContainer">
-        <button (click)="verMounstros()">Demogorgon</button>
-        <button (click)="verMounstros()">Mind Flyers</button>
-        <button (click)="verMounstros()">Vecna</button>
+        <button mat-raised-button color="warn" (click)="mostrarDemogorgon()">Demogorgon</button>
+        <button mat-raised-button color="warn" (click)="mostrarMindFlyers()">Mind Flyers</button>
+        <button mat-raised-button color="warn" (click)="mostrarVecna()">Vecna</button>
     </div>
     <br>
-    <div *ngIf="this.siverMounstros" class="img">
-        <!-- <img id="img1" src="../../../assets/images/Demogorgon.jpeg">
-        <img id="img1" src="../../../assets/images/Mind Flyers.jpeg"> -->
-        <img id="img1" src="../../../assets/images/monsters.jpg">
-        <!-- <img id="img1" src="../../../assets/images/Vecna.jpeg"> -->
+
+    <div id="Mounstruos">
+        <img *ngIf="this.demogorgon" id="demogorgon" src="../../../assets/images/Demogorgon.jpeg">
+        <img  *ngIf="this.mindFlyers" id="mindFlyers" src="../../../assets/images/Mind Flyers.jpeg">
+        <img  *ngIf="this.vecna" id="vecna" src="../../../assets/images/Vecna.jpeg"> 
     </div>
 
-    <button (click)="ocultarMounstros()" *ngIf="this.siverMounstros && this.siocultarMounstros">Ocultar</button>
+    <div class="borrar">
+      <button mat-button color="primary" *ngIf="this.botonOcultar" (click)="ocultarMounstros()">Ocultar</button>
+    </div>
 </div>

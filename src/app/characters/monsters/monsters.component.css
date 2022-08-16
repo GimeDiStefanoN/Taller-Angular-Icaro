@@ -19,3 +19,12 @@
     max-width: 350px;
     max-height: 350px;
 }
+
+.textImg{
+    width: 100%;
+    justify-content: center;
+}
+
+.borrar{
+    width: 100%;
+}

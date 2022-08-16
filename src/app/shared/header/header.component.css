@@ -1,12 +1,8 @@
-div{
-    width: 100%;
-    height: 100px;
+.toolbar{
     background-color: black;
-    text-align: center;
-    color: red;
-    text-decoration: double;
 }
 
 h1{
-    font-size: 60px;
+    font-size: 40px;
+    color: red
 }

@@ -23,6 +23,8 @@ export class MainCharactersComponent implements OnInit {
     {realName: 'Cara Buono', actor: 'Karen Wheeler'},
     {realName: 'Matthew Modine', actor: 'Dr. Martin Brenner'}
   ]
+
+  columnasaMostrar: string[] = ['actor', 'personaje'];
   
 
   constructor() { }

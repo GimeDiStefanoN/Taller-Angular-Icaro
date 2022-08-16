@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MainCharactersComponent } from './main-characters/main-characters.component';
 import { MonstersComponent } from './monsters/monsters.component';
+import { MaterialModule } from '../material/material.module'
 
 
 
@@ -13,7 +14,7 @@ import { MonstersComponent } from './monsters/monsters.component';
   exports: [MainCharactersComponent,
     MonstersComponent],
   imports: [
-    CommonModule
+    CommonModule, MaterialModule
   ]  
 })
 
