@@ -1,0 +1,24 @@
+<h2 class="subtitleProducts">Mirá todos los productos que podés comprar</h2>
+
+<ng-container *ngIf="this.productos && this.productos.length>0">
+    <div class="ContenedorCard" *ngFor="let item of productos">
+        <mat-card class="example-card">
+            <mat-card-title-group>
+              <mat-card-title>{{item.title}}</mat-card-title>
+              <mat-card-subtitle>{{item.price}}</mat-card-subtitle>
+              <img mat-card-sm-image [src]="item.image" >
+            </mat-card-title-group>
+            <mat-card-content>
+              {{item.description}}
+            </mat-card-content>
+            <button mat-icon-button>
+                <mat-icon id="agregarproducto" class="green-snackbar" (click)="agregar()">shopping_cart</mat-icon>
+                </button>
+            <br>
+            <button mat-icon-button class="material-symbols-outlined">
+                <mat-icon id="eliminarproducto" (click)="eliminar()">remove_shopping_cart</mat-icon>
+                </button>
+          </mat-card>
+    </div>
+</ng-container>
+

@@ -4,8 +4,14 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatTableModule} from '@angular/material/table';
 import {MatButtonModule} from '@angular/material/button';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
+import {MatCardModule} from '@angular/material/card';
+import {MatInputModule} from '@angular/material/input';
+import {MatIconModule} from '@angular/material/icon';
 
-const components = [MatToolbarModule, MatTableModule, MatButtonModule, MatSnackBarModule]
+
+
+
+const components = [MatToolbarModule, MatTableModule, MatButtonModule, MatSnackBarModule, MatCardModule, MatInputModule, MatIconModule]
 
 @NgModule({
   declarations: [],
