@@ -9,7 +9,7 @@ drive assets: https://drive.google.com/drive/folders/1d0LzvTcPloqoE4rqZCqLaqhPNF
 
 >> 2er Taller (Clase 6):  Incorporación de Angular Material (Toolbar, table, button y snackBar) e interface. Adaptación a MediaQuery(sin realizar)
 
->> 3er Taller (Clase 9): Incorporación de llamada a una API (fakeStore) y un formulario de contacto
+>> 3er Taller (Clase 9): Incorporación de llamada a una API (fakeStore) y un formulario reactivo de contacto
 
 
                                  RESULTADO FINAL
@@ -25,3 +25,4 @@ drive assets: https://drive.google.com/drive/folders/1d0LzvTcPloqoE4rqZCqLaqhPNF
 
                             TALLER 3
 
+![ResutadoFinal](../../../../../../../Desktop/ResultadoFinal.jpg)
