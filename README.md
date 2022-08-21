@@ -25,4 +25,4 @@ drive assets: https://drive.google.com/drive/folders/1d0LzvTcPloqoE4rqZCqLaqhPNF
 
                             TALLER 3
 
-![ResutadoFinal](../../../../../../../Desktop/ResultadoFinal.jpg)
+![ResultadoFinal](https://user-images.githubusercontent.com/97200944/185814508-b02b7909-ee81-46b6-b756-bb7df74b6a02.jpg)
